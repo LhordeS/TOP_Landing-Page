@@ -1,0 +1,167 @@
+html{
+    background-color: black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    width: 850px;
+    height: 100%;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+header{
+    /* margin-bottom: auto; */
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p:not(.quote p){
+    font-size: 13px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.hero-header{
+    width: 300px;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-header h1{
+    margin: 0;
+    color: #f9faf8;
+}
+
+.hero-header p{
+    margin: 10px 0;
+    color: #e7e5eb;
+}
+
+.hero-img{
+    height: 200px;
+}
+
+.info h2{
+    text-align: center;
+}
+
+.info{
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.img-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 16px 50px 0px 50px
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+}
+
+.item p{
+    text-align: center;
+}
+
+.item img{
+    /* width: 100px; */
+    border: solid #3882f6;
+    border-radius: 5%;
+
+}
+
+.quote{
+    background-color: #e5e7eb;
+    color: #1f2937;
+    /* height: 200px; */
+    padding: 30px 150px;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.author{
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+.action-container{
+    background-color: white;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.call-to-action{
+    background-color: #3882f6;
+    padding: 20px 30px;
+    width: 500px;
+    height: 50px;
+    /* flex: 1 1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    /* margin: 50px 10px; */
+    overflow-x: visible;
+    border-radius: 5px;
+}
+
+.call-to-action p, .call-to-action h3{
+    padding: 0;
+    margin: 0;
+}
+
+.btn{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    width: 80px;
+    border: none;
+    padding: 3px;
+}
+
+.btn-top{
+    margin-top: 10px;
+}
+
+.btn-bottom{
+    border: solid white 1px;
+}
+
+footer{
+    background-color: #1f2937;
+    margin-top: auto;
+    text-align: center;
+    font-size: 10px;
+}
